@@ -47,3 +47,5 @@ with open('car_fleet.csv') as file:
         cars.append(element)
 
 print(cars)
+
+
