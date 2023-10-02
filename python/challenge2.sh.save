@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Create folders A, B, C, D, and E
+mkdir A B C D E
+
+# Create text files in each folder
+for folder in A B C D E; do
+  for ((i=1; i<=15; i++)); do
+    touch "$folder/file$i.txt"
+  done
+done
+
