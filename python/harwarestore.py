@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 # import csv
 # import copy
 
@@ -8,8 +9,7 @@
 
 # # GET HEADER
 # with open('hardwareStore.csv') as file:
-#     reader = csv.reader(file, delimiter=',')
-    
+#     reader = csv.reader(file, delimiter=',')   
 #     for row in list(reader)[0]:
 #         header.append(row)
 
